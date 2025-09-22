@@ -1,0 +1,1156 @@
+method public final S()V
+    .registers 10
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "SPjfJ06eXzpO9NIv\n"
+
+    const-string v2, "Gr2caADQGnk=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->x0:I
+
+    sget v4, LBi;->u:I
+
+    const/4 v6, 0x2
+
+    const/4 v7, 0x0
+
+    const/16 v5, 0x14
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "9rJJMH7JHQ==\n"
+
+    const-string v2, "pPcafzKfWLw=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->y0:I
+
+    sget v4, LBi;->u:I
+
+    const/4 v6, 0x1
+
+    const/16 v5, 0x1e
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "7haeNJcvYxPhDg==\n"
+
+    const-string v2, "uVfXYMh/MVw=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->O0:I
+
+    sget v4, LBi;->u:I
+
+    const/16 v5, 0x28
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "DcB4Jg==\n"
+
+    const-string v2, "WoExcoNLFEQ=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->D0:I
+
+    sget v4, LBi;->u:I
+
+    const/16 v5, 0x32
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "o0UWxLHsrmSuTQ==\n"
+
+    const-string v2, "4ApYivSv+i0=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->q0:I
+
+    sget v4, LBi;->u:I
+
+    const/16 v5, 0x3c
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "LIpDWIsqfGkiiA==\n"
+
+    const-string v2, "a88XB8hlMi8=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->t0:I
+
+    sget v4, LBi;->u:I
+
+    const/16 v5, 0x46
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "kWWOpBg2mPaA\n"
+
+    const-string v2, "0Dbd7V94x78=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->k0:I
+
+    sget v4, LBi;->u:I
+
+    const/16 v5, 0x50
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "EdSE+LStOksVww==\n"
+
+    const-string v2, "UJDAp+bibx8=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->j0:I
+
+    sget v4, LBi;->u:I
+
+    const/16 v5, 0x5a
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "ai5NuZWd8wVt\n"
+
+    const-string v2, "KWED99Dep0A=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->p0:I
+
+    sget v4, LBi;->v:I
+
+    const/4 v6, 0x3
+
+    const/16 v5, 0x64
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "q08BAYpB7musUhcG\n"
+
+    const-string v2, "7wZSQsUPoC4=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->s0:I
+
+    sget v4, LBi;->u:I
+
+    const/4 v6, 0x2
+
+    const/4 v5, 0x0
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "wu52AoK4yvPP/mY=\n"
+
+    const-string v2, "g7siSt3+i7o=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->m0:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x3
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "po4TBSJy03+hhAweLXXBZbo=\n"
+
+    const-string v2, "9steWnIzgCw=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->S:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "R8QddDpLfPBNxxZ/I1xw7g==\n"
+
+    const-string v2, "BIFPIGUdOaI=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->f:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "pcV4YmUQI0i4xmVifhw/\n"
+
+    const-string v2, "8YkrPTNVcRs=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->H0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "zmokYqT/qZzJeytvpfOkhM8=\n"
+
+    const-string v2, "ijNqI+m26sM=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->x:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x2
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "aeLcasUicWRt6NR03ytgdQ==\n"
+
+    const-string v2, "PbeSNZZnJTE=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->M0:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x3
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "qSVebyW2JWO4L1NiKbEwZQ==\n"
+
+    const-string v2, "/XAQMGzwZCA=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->L0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "I89qsQtYbDYk22q+CkVsLDM=\n"
+
+    const-string v2, "d4467kUXOGk=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->G0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "E+ogQknvzfYN9ztbRuzd5wc=\n"
+
+    const-string v2, "Q7hvBACjiKk=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->c0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "KjgBfNKnzzQgOwply6HCISwoCmjJr8I=\n"
+
+    const-string v2, "aXdPOpvgkHI=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->m:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "eLSsyjDsyjhyorbLPf3XLw==\n"
+
+    const-string v2, "NvHpjm+vmH0=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->M:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "IX+c0V52XEEwYos=\n"
+
+    const-string v2, "Yi3ZlQ0pGRM=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->t:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "miBtNsanQzqWIXwsyqlSPIw7\n"
+
+    const-string v2, "2W8jeIPkF3M=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->r0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "C6aawkQlE9UdvJLMVSMQxA==\n"
+
+    const-string v2, "QujbgRBsRZA=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->D:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "ltNMUg==\n"
+
+    const-string v2, "350KHe1/Chg=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->E:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x0
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "qI+UPQ==\n"
+
+    const-string v2, "/87Gc9qI3gM=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->P0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "Ox6KEpWvHWAuCJoJnrUXdg==\n"
+
+    const-string v2, "a0zFSszwUyU=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->h0:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x3
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "ZUhFpeArPf9nVVg=\n"
+
+    const-string v2, "NRoK/bl0eK0=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->g0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "M/YUhZTVm0kt8B6FmdWdXjPtCZiJ\n"
+
+    const-string v2, "Y6Rb3c2K2AY=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->f0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "kXNsvfg3x9+bcQ==\n"
+
+    const-string v2, "1CMn9KdylY0=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->y:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "JP9iRE8hofkg42BJTymj5iD8\n"
+
+    const-string v2, "Ya8pDRBo768=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->z:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x0
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "nl7i1QI=\n"
+
+    const-string v2, "zh+3hkezYmo=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->v0:I
+
+    sget v4, LBi;->u:I
+
+    const/4 v6, 0x3
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "lHAfke2V\n"
+
+    const-string v2, "xjVMxKDQuMI=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->z0:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x2
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "OzlkW9aAsFg9N3JByJesQy4z\n"
+
+    const-string v2, "eHY2HonU+Ao=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->A0:I
+
+    sget v4, LBi;->u:I
+
+    const/4 v6, 0x1
+
+    const/16 v5, 0xa
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "qFkD6wQ1Ga2uVxXxEi8QvL9fB+s=\n"
+
+    const-string v2, "6xZRrlthUf8=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->B0:I
+
+    const/4 v6, 0x0
+
+    const/4 v4, -0x1
+
+    const/4 v5, 0x0
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "f+zhXnSXm9p54vdEbpGBx24=\n"
+
+    const-string v2, "PKOzGyvD04g=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->s:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x3
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "C9B3FRKipREN3mEPDLSsDQzQaxUJ\n"
+
+    const-string v2, "SJ8lUE327UM=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->r:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "uDlu0DfyKZG6OXM=\n"
+
+    const-string v2, "+3UnlXmmdtk=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->k:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "O8kv0jOFcxc91jLWL4U=\n"
+
+    const-string v2, "eIVml33RLEU=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->l:I
+
+    sget v4, LBi;->u:I
+
+    const/4 v6, 0x2
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "WRLB8YyCg8xZAdzkgJGDwVsP3A==\n"
+
+    const-string v2, "CUCOt8XOxpM=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->d0:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x3
+
+    const/4 v7, 0x4
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "R9Db/LLeW7xUzdr8t9tdtw==\n"
+
+    const-string v2, "F4KUuvuSHuM=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->V:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "6XpUMTs3mQjuelIjNySZBetnSQ==\n"
+
+    const-string v2, "uSgbd3J73Fc=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->e0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "zQgRHAA6p6bbExIfBzevvMIfDAgGJA==\n"
+
+    const-string v2, "nVpeWkl24vk=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->W:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "A3DtSxFQDTUeZ/BKHUMNMhBn8lkRUwY=\n"
+
+    const-string v2, "UyKiDVgcSGo=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->X:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x2
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "ygTdU3R3CQjXE8BSeGQDAcoYzVBlbxMR2x/e\n"
+
+    const-string v2, "mlaSFT07TFc=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->Z:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "BPQX492CgcQZ4wri0ZGLzQToB+PdgoHEEucR6Q==\n"
+
+    const-string v2, "VKZYpZTOxJs=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->a0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "RNlS5ceJnpxZzk/ky5qJhlLUW+LHiQ==\n"
+
+    const-string v2, "FIsdo47F28M=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->b0:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "QwqWFFTXOcReHYsVWMQxzl8MkAJR3iPJVh6GFFzSMA==\n"
+
+    const-string v2, "E1jZUh2bfJs=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->Y:I
+
+    sget v4, LBi;->w:I
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, p0, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService;->h:Ljava/util/HashMap;
+
+    const-string v1, "0Sl7auK9cmM=\n"
+
+    const-string v2, "hGAkOKfuNzc=\n"
+
+    invoke-static {v1, v2}, LXl;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v8, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;
+
+    sget v3, LTi;->N0:I
+
+    sget v4, LBi;->w:I
+
+    const/4 v6, 0x0
+
+    const/16 v7, 0x8
+
+    move-object v2, v8
+
+    invoke-direct/range {v2 .. v7}, Lapp/fixbuild/vpncore/aakingv2ray/service/OpenVPNService$d;-><init>(IIIII)V
+
+    invoke-virtual {v0, v1, v8}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method
+

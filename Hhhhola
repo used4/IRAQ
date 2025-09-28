@@ -1,0 +1,175 @@
+.method public a(Lcom/fasterxml/jackson/databind/JsonNode;)V
+    .registers 6
+
+    if-eqz p1, :cond_b6
+
+    :try_start_2
+    iget-object v0, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    invoke-static {v0}, Ljx/masafi/tunnel/fragment/HomeFragment;->p3(Ljx/masafi/tunnel/fragment/HomeFragment;)Landroid/view/View;
+
+    move-result-object v1
+
+    const v2, 0x7f0900da
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/TextView;
+
+    invoke-static {v0, v1}, Ljx/masafi/tunnel/fragment/HomeFragment;->o3(Ljx/masafi/tunnel/fragment/HomeFragment;Landroid/widget/TextView;)Landroid/widget/TextView;
+
+    iget-object v0, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    invoke-static {v0}, Ljx/masafi/tunnel/fragment/HomeFragment;->n3(Ljx/masafi/tunnel/fragment/HomeFragment;)Landroid/widget/TextView;
+
+    move-result-object v0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Validity: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, "expiry"
+
+    invoke-virtual {p1, v2}, Lcom/fasterxml/jackson/databind/JsonNode;->get(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/fasterxml/jackson/databind/JsonNode;->asText()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Ljx/masafi/tunnel/fragment/HomeFragment;->A2(Ljava/lang/String;)J
+
+    move-result-wide v2
+
+    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v2, " Days"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Landroid/text/Html;->fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    const-string v0, "device_match"
+
+    invoke-virtual {p1, v0}, Lcom/fasterxml/jackson/databind/JsonNode;->get(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/fasterxml/jackson/databind/JsonNode;->asText()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v0, "false"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_b6
+
+    new-instance p1, Landroid/app/AlertDialog$Builder;
+
+    iget-object v0, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/e;
+
+    move-result-object v0
+
+    const v1, 0x7f120124
+
+    invoke-direct {p1, v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
+
+    const-string v0, "Warning !!"
+
+    invoke-virtual {p1, v0}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+
+    const-string v0, "Account used by another device\nPlease check user account."
+
+    invoke-virtual {p1, v0}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+
+    const-string v0, "Reset Account"
+
+    new-instance v1, Ljx/masafi/tunnel/fragment/HomeFragment$e0$a;
+
+    invoke-direct {v1, p0}, Ljx/masafi/tunnel/fragment/HomeFragment$e0$a;-><init>(Ljx/masafi/tunnel/fragment/HomeFragment$e0;)V
+
+    invoke-virtual {p1, v0, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+
+    invoke-virtual {p1}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/app/Dialog;->show()V
+
+    iget-object p1, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    invoke-static {p1}, Ljx/masafi/tunnel/fragment/HomeFragment;->S2(Ljx/masafi/tunnel/fragment/HomeFragment;)V
+
+    iget-object p1, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    invoke-static {p1}, Ljx/masafi/tunnel/fragment/HomeFragment;->q3(Ljx/masafi/tunnel/fragment/HomeFragment;)V
+
+    iget-object p1, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0}, Ljx/masafi/tunnel/fragment/HomeFragment;->r3(Ljx/masafi/tunnel/fragment/HomeFragment;Z)V
+
+    new-instance p1, Landroid/content/Intent;
+
+    iget-object v0, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/e;
+
+    move-result-object v0
+
+    const-class v1, Ljx/masafi/tunnel/core/JxVPNService;
+
+    invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    iget-object v0, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->k()Landroidx/fragment/app/e;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Landroid/content/Context;->stopService(Landroid/content/Intent;)Z
+    :try_end_aa
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_aa} :catch_ab
+
+    goto :goto_b6
+
+    :catch_ab
+    iget-object p1, p0, Ljx/masafi/tunnel/fragment/HomeFragment$e0;->a:Ljx/masafi/tunnel/fragment/HomeFragment;
+
+    invoke-static {p1}, Ljx/masafi/tunnel/fragment/HomeFragment;->n3(Ljx/masafi/tunnel/fragment/HomeFragment;)Landroid/widget/TextView;
+
+    move-result-object p1
+
+    const-string v0, "Account Invalid"
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    :cond_b6
+    :goto_b6
+    return-void
+.end method
